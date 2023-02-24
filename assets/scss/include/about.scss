@@ -1,0 +1,27 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .card{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .card-first{
+            h2{
+                font-weight: 500;
+                font-size: 2rem;
+                line-height: 2.375rem;
+                color: #081323;
+                margin-bottom: 15px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 1.25rem;
+                line-height: 1.4375rem;
+                color: #828282;
+            }
+        }
+    }
+}

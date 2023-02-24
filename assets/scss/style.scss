@@ -32,7 +32,7 @@
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1520px;
     margin: 0 auto;
 }
 
@@ -45,3 +45,4 @@
 @import './layout/header.scss';
 
 @import './include/banner.scss';
+@import './include/about.scss';
