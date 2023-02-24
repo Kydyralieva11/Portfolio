@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.ttf");
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: inherit;
+  background: none;
+  outline: none;
+  list-style: none;
+  font-size: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.banner-bg {
+  background: url(../img/banner-bg.png) no-repeat;
+  background-size: cover;
+  min-height: 1410px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 66px;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  gap: 68px;
+}
+.header .nav a {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #FFFFFF;
+  transition: 0.6s all;
+}
+.header .nav a:hover {
+  background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */

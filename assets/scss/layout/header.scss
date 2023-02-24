@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 66px;
+    .nav{
+        display: flex;
+        align-items: center;
+        gap: 68px;
+        a{
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+            text-align: center;
+            color: #FFFFFF;
+            transition: .6s all;
+        }
+        a:hover{
+            background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+}

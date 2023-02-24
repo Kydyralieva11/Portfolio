@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Bold.ttf');
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: inherit;
+    background: none;
+    outline: none;
+    list-style: none;
+    font-size: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    font-family: 'Work Sans' ,sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner-bg{
+    background: url(../img/banner-bg.png) no-repeat;
+    background-size: cover;
+    min-height: 1410px;
+}
+
+@import './layout/header.scss';
