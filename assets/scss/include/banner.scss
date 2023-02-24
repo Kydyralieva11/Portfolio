@@ -1,0 +1,25 @@
+.banner{
+    .banner__items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            font-weight: 700;
+            font-size: 5.125rem;
+            line-height: 6rem;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 5.625rem;
+        }
+        p{
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 150%;
+            text-align: center;
+            color: #FFFFFF;
+            max-width: 36.4375rem;
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+    }
+}
