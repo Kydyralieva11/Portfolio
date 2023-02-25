@@ -39,6 +39,25 @@
   background: url(../img/banner-bg.png) no-repeat;
   background-size: cover;
   min-height: 1410px;
+  position: relative;
+}
+
+.point-product {
+  position: absolute;
+  bottom: 786px;
+  left: 134px;
+}
+
+.point-product2 {
+  position: absolute;
+  bottom: 532px;
+  left: 228px;
+}
+
+.hover-product {
+  position: absolute;
+  bottom: 535px;
+  right: 75px;
 }
 
 .header {
@@ -168,6 +187,36 @@
   max-width: 36.4375rem;
   margin: 0 auto;
   margin-top: 25px;
+}
+.banner .banner__items .form-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+}
+.banner .banner__items .form-banner .banner-input {
+  position: relative;
+}
+.banner .banner__items .form-banner .banner-input input {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  padding: 25px 30px;
+  width: 464px;
+}
+.banner .banner__items .form-banner .banner-input .fa-magnifying-glass {
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+  padding: 15px;
+  border-radius: 20px;
+  top: 15px;
+  left: 405px;
+  position: absolute;
 }
 
 .about {
